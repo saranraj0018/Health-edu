@@ -1,9 +1,13 @@
+import React from 'react'
+import logo from '../public/images/logo-light.png'
 
-function App() {
+const App = () => {
   return (
-    <>
-      <h1 className='text-3xl'>Health Edu</h1>
-    </>
+    <div className='text-primary-950 font-primary'>
+      {/* <img src={logo} alt="" /> */}
+      Home
+    </div>
+    
   )
 }
 
