@@ -1,11 +1,8 @@
-import { useState } from 'react'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      Health Edu
+      <h1 className='text-3xl'>Health Edu</h1>
     </>
   )
 }
